@@ -360,12 +360,14 @@ img {
 }
 
 .address-item {
-  margin-bottom: 9px;
-
   font-style: normal;
   line-height: 1.71;
   color: var(--secondary-text-color);
   text-decoration: none;
+}
+
+.address-items:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .address-item.link {
