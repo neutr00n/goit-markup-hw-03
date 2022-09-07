@@ -218,6 +218,10 @@ img {
   color: var(--primary-title-color);
 }
 
+.features-items {
+  width: calc(100% / 4);
+}
+
 .features-items:not(:first-child) {
   margin-left: 30px;
 }
