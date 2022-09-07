@@ -80,6 +80,7 @@ img {
 
   background-color: var(--secondary-bgc);
 
+  border: none;
   border-radius: 4px;
 
   cursor: pointer;
