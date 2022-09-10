@@ -221,7 +221,7 @@ img {
 }
 
 .features-items {
-  width: calc(100% / 4);
+  width: calc((100% - 90px) / 4);
 }
 
 .features-items:not(:first-child) {
@@ -240,6 +240,10 @@ img {
 
 .work-list {
   display: flex;
+}
+
+.work-items {
+  flex-basis: calc((100% - 60px) / 3);
 }
 
 .work-items:not(:first-child) {
@@ -267,6 +271,8 @@ img {
 }
 
 .team-items {
+  flex-basis: calc((100% - 90px) / 4);
+
   background-color: var(--primary-bgc);
 
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -333,11 +339,10 @@ img {
 }
 
 .project-list {
-  margin-top: calc(-1 * var(--card-set-gap));
-  margin-left: calc(-1 * var(--card-set-gap));
-
   display: flex;
   flex-wrap: wrap;
+  margin-top: calc(-1 * var(--card-set-gap));
+  margin-left: calc(-1 * var(--card-set-gap));
 }
 
 .project-items {
