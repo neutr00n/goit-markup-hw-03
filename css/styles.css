@@ -349,12 +349,14 @@ img {
   flex-basis: calc(100% / 3 - 30px);
   margin-top: var(--card-set-gap);
   margin-left: var(--card-set-gap);
-
-  border: 1px solid var(--project-border-color);
 }
 
 .project-tumb {
   padding: 20px 24px;
+
+  border-right: 1px solid var(--project-border-color);
+  border-bottom: 1px solid var(--project-border-color);
+  border-left: 1px solid var(--project-border-color);
 }
 
 /* Footer section */
